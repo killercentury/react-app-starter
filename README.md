@@ -1,1 +1,1 @@
-# react-app-starter
+# sc-sg-react-app-starter
