@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Example from './components/example';
+import Example from './components/atoms/example';
 
 class App extends React.Component {
   render() {
