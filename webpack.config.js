@@ -6,12 +6,18 @@ module.exports = {
         path: './dist',
         filename: 'app.bundle.js'
     },
+    eslint: {
+    configFile: '.eslintrc'
+    },
     module: {
-        loaders: [{
-            test: /\.jsx?$/,
-            exclude: /node_modules/,
-            loader: 'babel-loader',
-        }]
+      preLoaders: [
+      {test: /\.js$/, loader: "eslint-loader", exclude: /node_modules/
+      }],
+      loaders: [{
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader',
+      }]
     },
     plugins: []
 };

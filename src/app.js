@@ -6,11 +6,11 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Example/>
+        <Example />
       </div>
     );
   }
 }
 
 ReactDOM.render(
-  <App/>, document.getElementById('react-container'))
+  <App />, document.getElementById('react-container'));

@@ -1,6 +1,6 @@
 # sc-sg-react-app-starter
 
 ## TODO:
-* ESLint
+* ESLint - DONE
 * Test
 * StyleGuide
